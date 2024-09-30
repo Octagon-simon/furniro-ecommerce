@@ -1,0 +1,17 @@
+import Navbar from '@/components/Navbar';
+import Hero from './(home)/Hero';
+import Categories from './(home)/Categories';
+import ProductList from './(home)/ProductList';
+import RoomInspirationSlider from './(home)/RoomInspirationSlider';
+
+export default function Page(){
+    return(
+        <>
+        <Navbar />
+        <Hero />
+        <Categories />
+        <ProductList />
+        <RoomInspirationSlider />
+        </>
+    )
+}
