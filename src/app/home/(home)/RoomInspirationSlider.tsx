@@ -2,7 +2,7 @@
 
 import { Box, Flex, Button, IconButton, HStack, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import RoomInspirationCard from '@/components/common/RoomInspirationCard';
+import RoomInspirationCard from './RoomInspirationCard';
 
 const rooms = [
   {

@@ -19,13 +19,18 @@ const customTheme = extendTheme({
     red: '#EB5757',
     green: '#2EC1AC'
   },
-  // components: {
-  //   Button: {
-  //     baseStyle: {
-  //       fontSize: 'sm',
-  //     },
-  //   },
-  // },
+  components: {
+    Text: {
+      baseStyle: {
+        width: 'full',
+      },
+      Heading: {
+        baseStyle: {
+          width: 'full',
+        }
+      }
+    },
+  },
 });
 
 export default customTheme;

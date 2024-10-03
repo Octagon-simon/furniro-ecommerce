@@ -3,7 +3,7 @@ import { Box, Button, Heading, Stack, Text } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
-    <Box as="section" px="8" py="12" position="relative" bg="gray.50" minHeight="60vh">
+    <Box pt="72px" as="section" position="relative" bg="gray.50" minHeight="60vh">
 
       {/* Image */}
       <Box
@@ -12,29 +12,29 @@ const Hero = () => {
         alt="Chair and Plant"
         objectFit="cover"
         maxH="full"
-        position="absolute"
+        // position="absolute"
         right="0"
         bottom="0"
         width="100%"
-        // zIndex="-1"
+      // zIndex="-1"
       />
-            {/* Hero Content */}
-            <Box
-        maxW="md"
+      {/* Hero Content */}
+      <Box
+        maxW="lg"
         p="8"
         bg="primary_light"
         position="absolute"
         top="50%"
-        left="50%"
+        left="65%"
         transform="translateY(-50%)"
         borderRadius="md"
         boxShadow="lg"
-        // zIndex="1"
+      // zIndex="1"
       >
         <Text fontSize="sm" fontWeight="bold">
           New Arrival
         </Text>
-        <Heading as="h1" fontSize="4xl" fontWeight="900" color="primary" mt="2">
+        <Heading as="h1" fontSize="5xl" fontWeight="bold" color="primary" mt="2">
           Discover Our New Collection
         </Heading>
         <Text mt="4" fontSize="sm" fontWeight="500">
